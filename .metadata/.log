@@ -1,0 +1,15 @@
+!SESSION 2026-10-03 15:10:10.530 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-10-03 15:10:28.556
+!MESSAGE Log4j2 initialized with config file /home/wena/Project/stm32-bare-metal/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-10-03 15:10:30.581
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-10-03 15:12:05.283
+!MESSAGE Indexed 'gpio_register_acc' (3 sources, 53 headers) in 0.466 sec: 1,954 declarations; 2,867 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0%)
