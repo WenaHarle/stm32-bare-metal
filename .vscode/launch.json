@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/wena/Project/stm32-bare-metal/gpio_register_acc/basic",
-      "program": "/home/wena/Project/stm32-bare-metal/gpio_register_acc/basic/build/Debug/outDebug",
+      "cwd": "/home/wena/Project/stm32-bare-metal/gpio_register_acc/exercise",
+      "program": "/home/wena/Project/stm32-bare-metal/gpio_register_acc/exercise/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
