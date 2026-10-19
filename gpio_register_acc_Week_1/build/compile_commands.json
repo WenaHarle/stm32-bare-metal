@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/wena/Project/stm32-bare-metal/gpio_register_acc/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Og -g3 -g -std=gnu11 -o CMakeFiles/blink.dir/src/startup.c.obj -c /home/wena/Project/stm32-bare-metal/gpio_register_acc/src/startup.c",
+  "file": "/home/wena/Project/stm32-bare-metal/gpio_register_acc/src/startup.c",
+  "output": "/home/wena/Project/stm32-bare-metal/gpio_register_acc/build/CMakeFiles/blink.dir/src/startup.c.obj"
+},
+{
+  "directory": "/home/wena/Project/stm32-bare-metal/gpio_register_acc/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Og -g3 -g -std=gnu11 -o CMakeFiles/blink.dir/src/main.c.obj -c /home/wena/Project/stm32-bare-metal/gpio_register_acc/src/main.c",
+  "file": "/home/wena/Project/stm32-bare-metal/gpio_register_acc/src/main.c",
+  "output": "/home/wena/Project/stm32-bare-metal/gpio_register_acc/build/CMakeFiles/blink.dir/src/main.c.obj"
+}
+]

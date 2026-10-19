@@ -1,0 +1,4 @@
+/home/wena/Project/stm32-bare-metal/gpio_register_acc/build-release/CMakeFiles/blink.dir
+/home/wena/Project/stm32-bare-metal/gpio_register_acc/build-release/CMakeFiles/flash.dir
+/home/wena/Project/stm32-bare-metal/gpio_register_acc/build-release/CMakeFiles/edit_cache.dir
+/home/wena/Project/stm32-bare-metal/gpio_register_acc/build-release/CMakeFiles/rebuild_cache.dir

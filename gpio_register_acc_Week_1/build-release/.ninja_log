@@ -1,0 +1,6 @@
+# ninja log v7
+0	16	1792137559937711169	CMakeFiles/blink.dir/src/main.c.obj	54919057826b0375
+1	26	1792122135086296229	CMakeFiles/blink.dir/src/startup.c.obj	78d7260c075fdf30
+16	25	1792137559954574493	blink.elf	12447a89d74492dd
+25	440	1792137559962887366	CMakeFiles/flash	db3b45cd26325f3a
+25	440	1792137559962887366	/home/wena/Project/stm32-bare-metal/gpio_register_acc/build-release/CMakeFiles/flash	db3b45cd26325f3a

@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/wena/Project/stm32-bare-metal/time_base_Week_2/build-release",
+  "command": "/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Os -g0 -DNDEBUG -O3 -DNDEBUG -std=gnu11 -o CMakeFiles/timer.dir/src/startup.c.obj -c /home/wena/Project/stm32-bare-metal/time_base_Week_2/src/startup.c",
+  "file": "/home/wena/Project/stm32-bare-metal/time_base_Week_2/src/startup.c",
+  "output": "/home/wena/Project/stm32-bare-metal/time_base_Week_2/build-release/CMakeFiles/timer.dir/src/startup.c.obj"
+},
+{
+  "directory": "/home/wena/Project/stm32-bare-metal/time_base_Week_2/build-release",
+  "command": "/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Os -g0 -DNDEBUG -O3 -DNDEBUG -std=gnu11 -o CMakeFiles/timer.dir/src/main.c.obj -c /home/wena/Project/stm32-bare-metal/time_base_Week_2/src/main.c",
+  "file": "/home/wena/Project/stm32-bare-metal/time_base_Week_2/src/main.c",
+  "output": "/home/wena/Project/stm32-bare-metal/time_base_Week_2/build-release/CMakeFiles/timer.dir/src/main.c.obj"
+}
+]

@@ -1,18 +1,28 @@
 {
+  "version": "0.2.0",
   "configurations": [
     {
       "name": "linux-gcc-x64",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "openocd",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/gpio_register_acc/build/blink.elf",
+      "configFiles": [
+        "interface/stlink.cfg",
+        "target/stm32f4x.cfg"
+      ],
+      "gdbPath": "gdb-multiarch",
+      "objdumpPath": "arm-none-eabi-objdump",
+      "runToEntryPoint": "main",
+      "svdFile": "${workspaceFolder}/svd/STM32F407.svd",
       "includePath": [
         "${workspaceFolder}/**"
       ],
-      "compilerPath": "/usr/bin/gcc",
       "cStandard": "${default}",
       "cppStandard": "${default}",
-      "intelliSenseMode": "linux-gcc-x64",
-      "compilerArgs": [
-        ""
-      ]
+      "compilerPath": "/usr/bin/gcc",
+      "intelliSenseMode": "linux-gcc-x64"
     }
-  ],
-  "version": 4
+  ]
 }
