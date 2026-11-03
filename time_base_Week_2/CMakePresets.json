@@ -4,7 +4,7 @@
         {
             "name": "debug",
             "generator": "Ninja",
-            "binaryDir": "${sourceDir}/build",
+            "binaryDir": "${sourceDir}/build/debug",
             "toolchainFile": "${sourceDir}/cmake/arm-none-eabi.cmake",
             "cacheVariables": {
                 "CMAKE_BUILD_TYPE": "Debug",
@@ -14,7 +14,7 @@
         {
             "name": "release",
             "generator": "Ninja",
-            "binaryDir": "${sourceDir}/build-release",
+            "binaryDir": "${sourceDir}/build/release",
             "toolchainFile": "${sourceDir}/cmake/arm-none-eabi.cmake",
             "cacheVariables": {
                 "CMAKE_BUILD_TYPE": "Release",

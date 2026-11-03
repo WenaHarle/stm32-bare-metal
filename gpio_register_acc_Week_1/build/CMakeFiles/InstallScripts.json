@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/wena/Project/stm32-bare-metal/gpio_register_acc/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

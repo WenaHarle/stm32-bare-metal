@@ -1,4 +1,4 @@
-# Install script for directory: /home/wena/Project/stm32-bare-metal/gpio_register_acc
+# Install script for directory: /home/wena/Project/stm32-bare-metal/gpio_register_acc_Week_1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,7 +40,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/wena/Project/stm32-bare-metal/gpio_register_acc/build-release/install_local_manifest.txt"
+  file(WRITE "/home/wena/Project/stm32-bare-metal/gpio_register_acc_Week_1/build-release/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/wena/Project/stm32-bare-metal/gpio_register_acc/build-release/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/wena/Project/stm32-bare-metal/gpio_register_acc_Week_1/build-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

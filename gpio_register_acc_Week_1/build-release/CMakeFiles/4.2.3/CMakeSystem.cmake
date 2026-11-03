@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "7.0.0-38-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/wena/Project/stm32-bare-metal/gpio_register_acc/cmake/arm-none-eabi.cmake")
+include("/home/wena/Project/stm32-bare-metal/gpio_register_acc_Week_1/cmake/arm-none-eabi.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

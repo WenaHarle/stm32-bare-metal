@@ -20,8 +20,11 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -32,15 +35,20 @@ events:
       - "/usr/local/games/"
       - "/snap/bin/"
     searched_directories:
-      - "/home/wena/.local/stm32cube/bin/uname"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/uname"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
       - "/home/wena/.local/bin/uname"
+      - "/home/wena/.local/stm32cube/bin/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
       - "/usr/sbin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -53,6 +61,10 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/snap/bin"
+...
+
+---
+events:
   -
     kind: "message-v1"
     backtrace:
@@ -82,8 +94,11 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -94,12 +109,21 @@ events:
       - "/usr/local/games/"
       - "/snap/bin/"
     searched_directories:
-      - "/home/wena/.local/stm32cube/bin/ninja-build"
-      - "/home/wena/.local/stm32cube/bin/ninja"
-      - "/home/wena/.local/stm32cube/bin/samu"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/ninja-build"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/ninja"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/samu"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja-build"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/samu"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja-build"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/samu"
       - "/home/wena/.local/bin/ninja-build"
       - "/home/wena/.local/bin/ninja"
       - "/home/wena/.local/bin/samu"
+      - "/home/wena/.local/stm32cube/bin/ninja-build"
+      - "/home/wena/.local/stm32cube/bin/ninja"
+      - "/home/wena/.local/stm32cube/bin/samu"
       - "/usr/local/sbin/ninja-build"
       - "/usr/local/sbin/ninja"
       - "/usr/local/sbin/samu"
@@ -113,7 +137,9 @@ events:
     found: "/usr/bin/ninja"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -146,8 +172,11 @@ events:
     names:
       - "arm-none-eabi-gcc"
     candidate_directories:
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -158,15 +187,20 @@ events:
       - "/usr/local/games/"
       - "/snap/bin/"
     searched_directories:
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-gcc"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc"
       - "/home/wena/.local/bin/arm-none-eabi-gcc"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc"
       - "/usr/local/sbin/arm-none-eabi-gcc"
       - "/usr/local/bin/arm-none-eabi-gcc"
       - "/usr/sbin/arm-none-eabi-gcc"
     found: "/usr/bin/arm-none-eabi-gcc"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -206,7 +240,9 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -288,7 +324,9 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -321,7 +359,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        /home/wena/Project/stm32-bare-metal/gpio_register_acc/build-release/CMakeFiles/4.2.3/CompilerIdC/CMakeCCompilerId.o
+        /home/wena/Project/stm32-bare-metal/gpio_register_acc_Week_1/build-release/CMakeFiles/4.2.3/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "find-v1"
@@ -345,8 +383,11 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -358,7 +399,9 @@ events:
     found: "/usr/bin/arm-none-eabi-ar"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -393,8 +436,11 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -406,7 +452,9 @@ events:
     found: "/usr/bin/arm-none-eabi-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -441,8 +489,11 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -454,7 +505,9 @@ events:
     found: "/usr/bin/arm-none-eabi-strip"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -489,8 +542,11 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -502,7 +558,9 @@ events:
     found: "/usr/bin/arm-none-eabi-ld"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -537,8 +595,11 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -550,7 +611,9 @@ events:
     found: "/usr/bin/arm-none-eabi-nm"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -585,8 +648,11 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -598,7 +664,9 @@ events:
     found: "/usr/bin/arm-none-eabi-objdump"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -633,8 +701,11 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -646,7 +717,9 @@ events:
     found: "/usr/bin/arm-none-eabi-readelf"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -681,8 +754,11 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -693,8 +769,11 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/arm-none-eabi-dlltool"
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-dlltool"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-dlltool"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-dlltool"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-dlltool"
       - "/home/wena/.local/bin/arm-none-eabi-dlltool"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-dlltool"
       - "/usr/local/sbin/arm-none-eabi-dlltool"
       - "/usr/local/bin/arm-none-eabi-dlltool"
       - "/usr/sbin/arm-none-eabi-dlltool"
@@ -704,8 +783,11 @@ events:
       - "/usr/local/games/arm-none-eabi-dlltool"
       - "/snap/bin/arm-none-eabi-dlltool"
       - "/usr/bin/dlltool"
-      - "/home/wena/.local/stm32cube/bin/dlltool"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/dlltool"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
       - "/home/wena/.local/bin/dlltool"
+      - "/home/wena/.local/stm32cube/bin/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/usr/sbin/dlltool"
@@ -717,7 +799,9 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -752,8 +836,11 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -765,7 +852,9 @@ events:
     found: "/usr/bin/arm-none-eabi-addr2line"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -800,8 +889,11 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -812,8 +904,11 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/arm-none-eabi-tapi"
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-tapi"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-tapi"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-tapi"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-tapi"
       - "/home/wena/.local/bin/arm-none-eabi-tapi"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-tapi"
       - "/usr/local/sbin/arm-none-eabi-tapi"
       - "/usr/local/bin/arm-none-eabi-tapi"
       - "/usr/sbin/arm-none-eabi-tapi"
@@ -823,8 +918,11 @@ events:
       - "/usr/local/games/arm-none-eabi-tapi"
       - "/snap/bin/arm-none-eabi-tapi"
       - "/usr/bin/tapi"
-      - "/home/wena/.local/stm32cube/bin/tapi"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/tapi"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
       - "/home/wena/.local/bin/tapi"
+      - "/home/wena/.local/stm32cube/bin/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
       - "/usr/sbin/tapi"
@@ -836,7 +934,9 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -873,8 +973,11 @@ events:
       - "arm-none-eabi-gcc-ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -885,8 +988,11 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/arm-none-eabi-gcc-ar-14.2"
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.2"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14.2"
       - "/home/wena/.local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/local/sbin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/sbin/arm-none-eabi-gcc-ar-14.2"
@@ -896,8 +1002,11 @@ events:
       - "/usr/local/games/arm-none-eabi-gcc-ar-14.2"
       - "/snap/bin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/bin/arm-none-eabi-gcc-ar-14"
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14"
       - "/home/wena/.local/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ar-14"
       - "/usr/local/sbin/arm-none-eabi-gcc-ar-14"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
       - "/usr/sbin/arm-none-eabi-gcc-ar-14"
@@ -907,8 +1016,11 @@ events:
       - "/usr/local/games/arm-none-eabi-gcc-ar-14"
       - "/snap/bin/arm-none-eabi-gcc-ar-14"
       - "/usr/bin/arm-none-eabi-gcc-ar14"
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ar14"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-gcc-ar14"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar14"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar14"
       - "/home/wena/.local/bin/arm-none-eabi-gcc-ar14"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ar14"
       - "/usr/local/sbin/arm-none-eabi-gcc-ar14"
       - "/usr/local/bin/arm-none-eabi-gcc-ar14"
       - "/usr/sbin/arm-none-eabi-gcc-ar14"
@@ -920,7 +1032,9 @@ events:
     found: "/usr/bin/arm-none-eabi-gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -957,8 +1071,11 @@ events:
       - "arm-none-eabi-gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -969,8 +1086,11 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14.2"
       - "/home/wena/.local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/sbin/arm-none-eabi-gcc-ranlib-14.2"
@@ -980,8 +1100,11 @@ events:
       - "/usr/local/games/arm-none-eabi-gcc-ranlib-14.2"
       - "/snap/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14"
       - "/home/wena/.local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/sbin/arm-none-eabi-gcc-ranlib-14"
@@ -991,8 +1114,11 @@ events:
       - "/usr/local/games/arm-none-eabi-gcc-ranlib-14"
       - "/snap/bin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/bin/arm-none-eabi-gcc-ranlib14"
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib14"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib14"
       - "/home/wena/.local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ranlib14"
       - "/usr/local/sbin/arm-none-eabi-gcc-ranlib14"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
       - "/usr/sbin/arm-none-eabi-gcc-ranlib14"
@@ -1004,7 +1130,9 @@ events:
     found: "/usr/bin/arm-none-eabi-gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -1037,8 +1165,11 @@ events:
     names:
       - "arm-none-eabi-gcc"
     candidate_directories:
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1049,15 +1180,20 @@ events:
       - "/usr/local/games/"
       - "/snap/bin/"
     searched_directories:
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-gcc"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc"
       - "/home/wena/.local/bin/arm-none-eabi-gcc"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc"
       - "/usr/local/sbin/arm-none-eabi-gcc"
       - "/usr/local/bin/arm-none-eabi-gcc"
       - "/usr/sbin/arm-none-eabi-gcc"
     found: "/usr/bin/arm-none-eabi-gcc"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -1107,8 +1243,11 @@ events:
       - "arm-none-eabi-gcc-ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1119,8 +1258,11 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/arm-none-eabi-gcc-ar-"
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ar-"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-gcc-ar-"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-"
       - "/home/wena/.local/bin/arm-none-eabi-gcc-ar-"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ar-"
       - "/usr/local/sbin/arm-none-eabi-gcc-ar-"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-"
       - "/usr/sbin/arm-none-eabi-gcc-ar-"
@@ -1130,8 +1272,11 @@ events:
       - "/usr/local/games/arm-none-eabi-gcc-ar-"
       - "/snap/bin/arm-none-eabi-gcc-ar-"
       - "/usr/bin/arm-none-eabi-gcc-ar-"
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ar-"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-gcc-ar-"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-"
       - "/home/wena/.local/bin/arm-none-eabi-gcc-ar-"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ar-"
       - "/usr/local/sbin/arm-none-eabi-gcc-ar-"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-"
       - "/usr/sbin/arm-none-eabi-gcc-ar-"
@@ -1143,7 +1288,9 @@ events:
     found: "/usr/bin/arm-none-eabi-gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -1180,8 +1327,11 @@ events:
       - "arm-none-eabi-gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/wena/.local/stm32cube/bin/"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/wena/.local/bin/"
+      - "/home/wena/.local/stm32cube/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1192,8 +1342,11 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/arm-none-eabi-gcc-ranlib-"
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-"
       - "/home/wena/.local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
       - "/usr/sbin/arm-none-eabi-gcc-ranlib-"
@@ -1203,8 +1356,11 @@ events:
       - "/usr/local/games/arm-none-eabi-gcc-ranlib-"
       - "/snap/bin/arm-none-eabi-gcc-ranlib-"
       - "/usr/bin/arm-none-eabi-gcc-ranlib-"
-      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-"
+      - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-"
       - "/home/wena/.local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/wena/.local/stm32cube/bin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
       - "/usr/sbin/arm-none-eabi-gcc-ranlib-"
@@ -1216,7 +1372,9 @@ events:
     found: "/usr/bin/arm-none-eabi-gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/wena/.local/stm32cube/bin"
+        - "/home/wena/.vscode/extensions/vadimcn.vscode-lldb-1.12.2/bin"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/wena/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/wena/.local/bin"
         - "/home/wena/.local/stm32cube/bin"
         - "/home/wena/.local/stm32cube/bin"
@@ -1238,8 +1396,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/wena/Project/stm32-bare-metal/gpio_register_acc/build-release/CMakeFiles/CMakeScratch/TryCompile-asR1fI"
-      binary: "/home/wena/Project/stm32-bare-metal/gpio_register_acc/build-release/CMakeFiles/CMakeScratch/TryCompile-asR1fI"
+      source: "/home/wena/Project/stm32-bare-metal/gpio_register_acc_Week_1/build-release/CMakeFiles/CMakeScratch/TryCompile-2gywye"
+      binary: "/home/wena/Project/stm32-bare-metal/gpio_register_acc_Week_1/build-release/CMakeFiles/CMakeScratch/TryCompile-2gywye"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra"
       CMAKE_C_FLAGS_DEBUG: "-Og -g3 -g"
@@ -1248,10 +1406,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/wena/Project/stm32-bare-metal/gpio_register_acc/build-release/CMakeFiles/CMakeScratch/TryCompile-asR1fI'
+        Change Dir: '/home/wena/Project/stm32-bare-metal/gpio_register_acc_Week_1/build-release/CMakeFiles/CMakeScratch/TryCompile-2gywye'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_9437d
-        [1/2] /usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra    -v -o CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/ninja -v cmTC_7252d
+        [1/2] /usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra    -v -o CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -1259,8 +1417,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.2.1 20241119 (15:14.2.rel1-1) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-Wall' '-Wextra' '-v' '-o' 'CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_9437d.dir/'
-         /usr/lib/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v7e-m+fp/hard -D__USES_INITFINI__ /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9437d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -Wextra -version -ffunction-sections -fdata-sections -o /tmp/ccLwgaEk.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-Wall' '-Wextra' '-v' '-o' 'CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_7252d.dir/'
+         /usr/lib/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v7e-m+fp/hard -D__USES_INITFINI__ /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7252d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -Wextra -version -ffunction-sections -fdata-sections -o /tmp/cc8lF5g4.s
         GNU C17 (15:14.2.rel1-1) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1274,13 +1432,13 @@ events:
          /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 83c7bd5e138bdd5cc3a8ac007b488250
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-Wall' '-Wextra' '-v' '-o' 'CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_9437d.dir/'
-         /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.obj /tmp/ccLwgaEk.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-Wall' '-Wextra' '-v' '-o' 'CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_7252d.dir/'
+         /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.obj /tmp/cc8lF5g4.s
         GNU assembler version 2.45.50 (arm-none-eabi) using BFD version (2.45.50.20251209-1ubuntu1+23build1) 2.45.50.20251209
         COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/
         LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-Wall' '-Wextra' '-v' '-o' 'CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /usr/bin/cmake -E rm -f libcmTC_9437d.a && /usr/bin/arm-none-eabi-ar qc libcmTC_9437d.a  CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.obj && /usr/bin/arm-none-eabi-ranlib libcmTC_9437d.a && :
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-Wall' '-Wextra' '-v' '-o' 'CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/cmake -E rm -f libcmTC_7252d.a && /usr/bin/arm-none-eabi-ar qc libcmTC_7252d.a  CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.obj && /usr/bin/arm-none-eabi-ranlib libcmTC_7252d.a && :
         
       exitCode: 0
   -
@@ -1313,10 +1471,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/wena/Project/stm32-bare-metal/gpio_register_acc/build-release/CMakeFiles/CMakeScratch/TryCompile-asR1fI']
+        ignore line: [Change Dir: '/home/wena/Project/stm32-bare-metal/gpio_register_acc_Week_1/build-release/CMakeFiles/CMakeScratch/TryCompile-2gywye']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_9437d]
-        ignore line: [[1/2] /usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra    -v -o CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_7252d]
+        ignore line: [[1/2] /usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra    -v -o CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -1324,8 +1482,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.1 20241119 (15:14.2.rel1-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-Wall' '-Wextra' '-v' '-o' 'CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_9437d.dir/']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v7e-m+fp/hard -D__USES_INITFINI__ /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9437d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -Wextra -version -ffunction-sections -fdata-sections -o /tmp/ccLwgaEk.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-Wall' '-Wextra' '-v' '-o' 'CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_7252d.dir/']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v7e-m+fp/hard -D__USES_INITFINI__ /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7252d.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlibarch=armv7e-m+fp -march=armv7e-m+fp -Wall -Wextra -version -ffunction-sections -fdata-sections -o /tmp/cc8lF5g4.s]
         ignore line: [GNU C17 (15:14.2.rel1-1) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1339,13 +1497,13 @@ events:
         ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 83c7bd5e138bdd5cc3a8ac007b488250]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-Wall' '-Wextra' '-v' '-o' 'CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_9437d.dir/']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.obj /tmp/ccLwgaEk.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-Wall' '-Wextra' '-v' '-o' 'CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_7252d.dir/']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.obj /tmp/cc8lF5g4.s]
         ignore line: [GNU assembler version 2.45.50 (arm-none-eabi) using BFD version (2.45.50.20251209-1ubuntu1+23build1) 2.45.50.20251209]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-Wall' '-Wextra' '-v' '-o' 'CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /usr/bin/cmake -E rm -f libcmTC_9437d.a && /usr/bin/arm-none-eabi-ar qc libcmTC_9437d.a  CMakeFiles/cmTC_9437d.dir/CMakeCCompilerABI.c.obj && /usr/bin/arm-none-eabi-ranlib libcmTC_9437d.a && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mfpu=fpv4-sp-d16' '-mfloat-abi=hard' '-ffunction-sections' '-fdata-sections' '-Wall' '-Wextra' '-v' '-o' 'CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/bin/cmake -E rm -f libcmTC_7252d.a && /usr/bin/arm-none-eabi-ar qc libcmTC_7252d.a  CMakeFiles/cmTC_7252d.dir/CMakeCCompilerABI.c.obj && /usr/bin/arm-none-eabi-ranlib libcmTC_7252d.a && :]
         ignore line: []
         ignore line: []
         implicit libs: []

@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/wena/Project/stm32-bare-metal/gpio_register_acc -B/home/wena/Project/stm32-bare-metal/gpio_register_acc/build-release
+  command = /usr/bin/cmake --regenerate-during-build -S/home/wena/Project/stm32-bare-metal/gpio_register_acc_Week_1 -B/home/wena/Project/stm32-bare-metal/gpio_register_acc_Week_1/build-release
   description = Re-running CMake...
   generator = 1
 

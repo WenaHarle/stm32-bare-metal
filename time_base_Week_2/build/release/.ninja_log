@@ -1,0 +1,6 @@
+# ninja log v7
+1	104	1792484740569188597	CMakeFiles/timer.dir/src/main.c.obj	48dd935deada04d6
+1	27	1792482144817878191	CMakeFiles/timer.dir/src/startup.c.obj	5b06006a33378525
+104	136	1792484740671188628	timer.elf	165a0ffb5401cf3
+1	996	1792484751960502439	CMakeFiles/flash	478540146342ed21
+1	996	1792484751960502439	/home/wena/Project/stm32-bare-metal/time_base_Week_2/build/release/CMakeFiles/flash	478540146342ed21
